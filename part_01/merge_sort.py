@@ -12,22 +12,22 @@ class MergeSort:
         if len(nums) <= 1:
             return nums
         else:
-            mid = len(nums)//2
+            mid = len(nums) // 2
             return self.merge(self.sort(nums[:mid]), self.sort(nums[mid:]))
 
     def merge(self, a, b):
-        m,n = len(a), len(b)
+        m, n = len(a), len(b)
         ans = []
-        i=j=0
-        while i<m or j<n:
-            if i==m:
+        i = j = 0
+        while i < m or j < n:
+            if i == m:
                 ans.append(b[j])
-                j+=1
-            elif j==n:
+                j += 1
+            elif j == n:
                 ans.append(a[i])
-                i+=1
+                i += 1
             else:
-                if a[i]<b[j]:
+                if a[i] < b[j]:
                     ans.append(a[i])
                     i += 1
                 else:
@@ -38,6 +38,6 @@ class MergeSort:
 
 sorter = MergeSort()
 
-input = [3,2,5,1,8,4,9,6,7]
+input = [3, 2, 5, 1, 8, 4, 9, 6, 7]
 output = sorter.sort(input)
 print(output)

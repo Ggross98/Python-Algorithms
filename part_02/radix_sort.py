@@ -6,6 +6,7 @@
 
 from collections import defaultdict
 
+
 class RadixSort():
     def __init__(self):
         pass
@@ -39,6 +40,6 @@ class RadixSort():
 
 sorter = RadixSort()
 
-input = [2,675,432,141,641,999,16]
+input = [2, 675, 432, 141, 641, 999, 16]
 output = sorter.sort(input, 3)
 print(output)
