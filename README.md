@@ -12,7 +12,7 @@
 8.2 Counting Sort 计数排序  
 8.3 Radix Sort 基数排序  
 8.4 Bucket Sort 桶排序  
-*9.2 Randomized Select 随机选择  
+9.2 Randomized Select 随机选择  
 ## 第三部分 数据结构
 10.1 Stack 栈  
 10.1 Queue 队列  
@@ -22,7 +22,11 @@
 ### 15 Dynamic Programming 动态规划
 15.1 Iron Rod Cutting 钢条切割  
 15.4 Longest Common Subsequence 最长公共子序列  
+*15.5 Optimal Binary Search Tree 最优二叉搜索树  
+
 ### 16 Greedy Algorithm 贪心算法
+16.1 Activity Selection 活动选择  
+16.3 Huffman Code 霍夫曼编码
 
 ## 第五部分 高级数据结构
 ## 第六部分 图算法
